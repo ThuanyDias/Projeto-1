@@ -1,0 +1,115 @@
+
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    ont-family: "Roboto", sans-serif;
+    outline: none;
+    
+}
+
+body {
+    background-color: #060c44;
+}
+
+.logo {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    }
+
+main {
+    width: 375px;
+    border-radius: 20px;
+    background: #747dd1;
+    margin:0 auto 40px;
+    padding: 44px 24px 23px;
+}
+
+label {
+    color:#ffffff;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select, input {
+    border-radius:4px ;
+    border: 1px solid #bbbbbb;
+    background: #ffffff;
+    height:48px;
+    width:100%;
+    margin-bottom: 24px;
+    appearance:none; /*colocar ou nao a setinha*/
+    padding-left:18px;
+    font-size: 16px;
+    font-weight: 700px;
+    color:#555555;
+    cursor:pointer;
+}
+
+button {
+    width: 100%;
+    background: #060c44;
+    border-radius: 5px;
+    border: none;
+    height: 48px;
+    color:#FFFFFF;
+    font-size: 18px;
+    font-weight: 700px;
+    cursor:pointer;
+}
+
+button:hover{
+    opacity:0.8;
+}
+
+Button:active{
+    opacity: 0.6;
+}
+
+section{
+    border: 1px solid #060c44;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.arrow-img{
+    margin:15px 0;
+    width: 50px;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:4px;
+}
+
+.currency{
+    color: #fffff7;
+    font-size: 14px ;
+}
+
+.currency-value, .currency-value-to-convert{
+    color:#060c44;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.logo-countryreal {
+    width: 50px;
+    display: block;
+    margin: 20px auto;
+}
+
+.logo-countryusa {
+    width: 100px;
+    display: block;
+    margin: 20px auto;
+}
